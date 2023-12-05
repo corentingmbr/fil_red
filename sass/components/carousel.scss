@@ -1,0 +1,42 @@
+.social_media {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align:justify;
+    gap: 120px;
+    padding:20px;
+  }
+
+.container {
+    width:50%;
+    height:500px;
+  }
+
+.tittle {
+    border-bottom: 1px double black;
+    margin:0;
+    padding:20px;
+}
+
+.tittle:hover{
+  color:$color_4;
+  text-decoration: underline $color_4 2px;
+}
+
+.link:hover {
+  transform: scale(1.2);
+  transition:500ms;
+}
+
+.Git {
+  border-radius: 50px;
+}
+
+.mail {
+  border-radius: 50px;
+}
+
+.sparetime {
+  border-radius: 50px;
+}

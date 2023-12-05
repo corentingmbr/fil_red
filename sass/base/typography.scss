@@ -1,0 +1,45 @@
+header {
+    a {
+        color: $color_1;
+        font-family: $Hedvig;
+        font-weight: 700;
+        text-decoration: none;
+    }
+}
+
+footer {
+    color: $color_2;
+    font-family: $Roboto;
+}
+
+#home {
+    font-family: $Roboto;
+}
+
+.tittle {
+    font-family :$Titillium;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+#button {
+    text-decoration: none;
+    font-family :$Roboto;
+    color:$color_1;
+    font-weight: 500;
+}
+
+#contacter {
+    font-family :$Roboto;
+    color:$color_1;
+    font-weight: 500;
+}
+
+.code {
+    color:$color_2;
+    font-weight: 700;
+}
+
+#copyright {
+    color:$color_1;
+}

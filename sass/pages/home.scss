@@ -1,0 +1,43 @@
+#entete {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(./../../images/background1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#picture {
+    border-radius: 50%;
+}
+
+#name {
+    font-size: large;
+    color: $color_1;
+    margin:0;
+    padding:15px;
+    font-weight: 700;
+}
+
+#name:hover {
+    transform:scale(1.2);
+    transition:500ms;
+}
+
+#job {
+    font-size: larger;
+    color: $color_1;
+    margin:0;
+}
+
+#job:hover {
+    transform:scale(1.2);
+    transition:500ms;
+}
+
+#presentation {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:50px;
+}

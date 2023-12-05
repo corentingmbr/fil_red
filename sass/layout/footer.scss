@@ -1,0 +1,21 @@
+footer {
+    background-color: $bg_color_3;
+    
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      gap: 10%;
+      padding: 30px;      
+    }
+  }
+
+  .link {
+    color: $color_2;
+    text-decoration:wavy;
+  }
+
+  .link:hover {
+    color :$color_4;
+  }
